@@ -1,0 +1,10 @@
+/* style.css */
+
+html{
+    background-color: #d7c2a8;
+}
+h1{
+    font-size: 50px; text-align: center;
+    background-color: beige; font-weight: bold; font-family: "Times New Roman", Georgia, serif;
+}
+
