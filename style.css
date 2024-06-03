@@ -43,11 +43,22 @@ h1{
     flex-direction: row;
     flex-grow: 1;
     gap: 5rem;
+    background-color: lightblue;
 }
 div{
     flex: wrap;
     flex-grow: 1;
     border: 5px solid beige;
-    padding: 10px;
-    margin: 10px;
+   margin: 10px;
+   padding: 10px;
+    justify-content: center;
+    text-align: CENTER;
+}
+.happy-cooking{
+    text-align: center;
+    font-size: 28px;
+    background-color: lightblue;
+    border-bottom: 10px solid beige;
+    margin-left: 300px;
+    margin-right: 300px;
 }
