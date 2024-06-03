@@ -38,18 +38,16 @@ h1{
     background-color: lightblue;
 
 }
-ul{
-    display: inline-block;
-    margin: 8px;
-    padding: 28px;
-    border: 10px;   
-    border-color: black;
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 5rem;
 }
 div{
-    display: block;
-    border-color: black;
-    border: 20px;
+    flex: wrap;
+    flex-grow: 1;
+    border: 5px solid beige;
     padding: 10px;
-    margin: 8px;
-
+    margin: 10px;
 }
